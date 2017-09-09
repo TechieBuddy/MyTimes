@@ -44,16 +44,22 @@ div {
   display: flex;
   width: 630px;
   flex-direction: column;
+  margin-top: 40px;
+  margin-right: 30px;
 }
 
 .medium-column {
   display: flex;
   width: 300px;
   flex-direction: column;
+  margin-top: 40px;
+  margin-right: 30px;
 }
 
 .small-column {
   display: flex;
   width: 240px;
   flex-direction: column;
+  margin-top: 40px;
+  margin-right: 30px;
 }

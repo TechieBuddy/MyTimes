@@ -67,18 +67,41 @@ div {
   margin-top: 40px;
 }
 
-.mother-of-three {
+.lead-story-image {
+  display: flex;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png")
 }
+.mother-of-three {
+  height: 300px;
 
-.earth-spins {
+}
+
+.earth-story-image {
+  display: flex;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png")
 }
-
-.cameras-erase-memory {
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png")
+.earth-spins {
+ height: 300px;
 }
 
-.cats-in-control {
+.hipster-image {
+  display: flex;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png")
+}
+.cameras-erase-memory {
+  height: 300px:
+}
+
+.cat-image {
+  display: flex;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png")
+}
+.cats-in-control {
+  height: 300px;
+}
+
+.story p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }

@@ -73,7 +73,13 @@ div {
 }
 .mother-of-three {
   height: 300px;
+}
 
+.mother-of-three span {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
 }
 
 .earth-story-image {
@@ -84,12 +90,26 @@ div {
  height: 300px;
 }
 
+.earth-spins span {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
 .hipster-image {
   display: flex;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png")
 }
 .cameras-erase-memory {
-  height: 300px:
+  height: 300px;
+}
+
+.cameras-erase-memory span {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
 }
 
 .cat-image {
@@ -98,6 +118,13 @@ div {
 }
 .cats-in-control {
   height: 300px;
+}
+
+.cats-in-control span {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
 }
 
 .story p {

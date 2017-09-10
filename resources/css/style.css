@@ -140,3 +140,11 @@ div {
   font-size: 17px;
   color: black;
 }
+
+.story {
+  margin-bottom: 15px;
+}
+
+.story.lead {
+  margin: 0px;
+}

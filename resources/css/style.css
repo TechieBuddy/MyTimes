@@ -196,4 +196,23 @@ div {
 
 footer {
   display: flex;
+  /*flex-direction: row;*/
+  flex-wrap: wrap;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  /*align-content: center;*/
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  margin-top: 75px;
+}
+
+.footer-title {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+
 }

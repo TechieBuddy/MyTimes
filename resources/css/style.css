@@ -4,9 +4,9 @@ header {
   font-size: 14px;
   font-weight: bold;
   border-bottom: 1px solid black;
-  position: fixed;
+  /*position: fixed;
   width: 100%;
-  z-index: 5;
+  z-index: 5;*/
 }
 
 .logo {
@@ -48,7 +48,7 @@ div {
 .main-content {
   display: flex;
   position: relative;
-  top: 75px;
+  /*top: 75px;*/
 }
 
 .large-column {
@@ -192,4 +192,8 @@ div {
   text-align: center;
   font-size: 16px;
   font-weight: bold;
+}
+
+footer {
+  display: flex;
 }

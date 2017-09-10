@@ -36,9 +36,11 @@ a:link {
   color: black;
 }
 
+/*
 div {
   border: 1px solid black;
 }
+*/
 
 .main-content {
   display: flex;
@@ -90,7 +92,6 @@ div {
 
 .earth-spins {
   height: 300px;
-  width: 630px;
   text-align: center;
 }
 
@@ -147,4 +148,21 @@ div {
 
 .story.lead {
   margin: 0px;
+}
+
+.double-column-section {
+  display: flex;
+
+}
+
+.first-inner-column {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 20px;
+}
+
+.second-inner-column {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 20px;
 }

@@ -4,6 +4,9 @@ header {
   font-size: 14px;
   font-weight: bold;
   border-bottom: 1px solid black;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
 }
 
 .logo {
@@ -44,6 +47,8 @@ div {
 
 .main-content {
   display: flex;
+  position: relative;
+  top: 75px;
 }
 
 .large-column {

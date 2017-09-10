@@ -71,6 +71,7 @@ div {
   display: flex;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png")
 }
+
 .mother-of-three {
   height: 300px;
 }
@@ -86,8 +87,11 @@ div {
   display: flex;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png")
 }
+
 .earth-spins {
- height: 300px;
+  height: 300px;
+  width: 630px;
+  text-align: center;
 }
 
 .earth-spins span {
@@ -101,8 +105,10 @@ div {
   display: flex;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png")
 }
+
 .cameras-erase-memory {
   height: 300px;
+  text-align: center;
 }
 
 .cameras-erase-memory span {
@@ -116,8 +122,10 @@ div {
   display: flex;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png")
 }
+
 .cats-in-control {
   height: 300px;
+  text-align: center;
 }
 
 .cats-in-control span {

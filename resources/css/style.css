@@ -79,11 +79,14 @@ div {
 
 .lead-story-image {
   display: flex;
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png")
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
 }
 
 .mother-of-three {
+  display: flex;
   height: 300px;
+  align-items: center;
+  text-align: center;
 }
 
 .mother-of-three span {
@@ -91,6 +94,7 @@ div {
   font-weight: bold;
   font-size: 40px;
   color: white;
+
 }
 
 .earth-story-image {
@@ -99,7 +103,9 @@ div {
 }
 
 .earth-spins {
+  display: flex;
   height: 300px;
+  align-items: center;
   text-align: center;
 }
 
@@ -112,11 +118,14 @@ div {
 
 .hipster-image {
   display: flex;
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png")
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
+
 }
 
 .cameras-erase-memory {
+  display: flex;
   height: 300px;
+  align-items: center;
   text-align: center;
 }
 
@@ -125,6 +134,7 @@ div {
   font-weight: bold;
   font-size: 30px;
   color: white;
+
 }
 
 .cat-image {
@@ -133,7 +143,9 @@ div {
 }
 
 .cats-in-control {
+  display: flex;
   height: 300px;
+  align-items: center;
   text-align: center;
 }
 

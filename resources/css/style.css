@@ -4,9 +4,12 @@ header {
   font-size: 14px;
   font-weight: bold;
   border-bottom: 1px solid black;
-  /*position: fixed;
+  position: fixed;
   width: 100%;
-  z-index: 5;*/
+  z-index: 5;
+  background-color: white;
+  top: 0px;
+  padding-top: 10px;
 }
 
 .logo {
@@ -48,7 +51,7 @@ div {
 .main-content {
   display: flex;
   position: relative;
-  /*top: 75px;*/
+  top: 65px;
 }
 
 .large-column {
@@ -196,17 +199,15 @@ div {
 
 footer {
   display: flex;
-  /*flex-direction: row;*/
-  flex-wrap: wrap;
+  flex-direction: column;
   background-color: MediumAquamarine;
   margin: auto;
   font-family: Verdana;
   font-size: 12px;
-  /*align-content: center;*/
   align-items: center;
   justify-content: center;
   height: 300px;
-  margin-top: 75px;
+  margin-top: 150px;
 }
 
 .footer-title {
@@ -214,5 +215,21 @@ footer {
   font-size: 16px;
   font-weight: bold;
   color: white;
+  border-right: 2px solid white;
+  height: 20px;
+  margin: 0px;
+  padding-right: 25px;
+}
 
+.footer-nav {
+  margin-left: 35px;
+}
+
+.title-and-nav {
+  display: flex;
+  align-items: center;
+}
+
+.copyright {
+  margin-right: 25px;
 }
